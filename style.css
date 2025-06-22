@@ -1,0 +1,88 @@
+/* Reset some defaults */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Base styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    /* from your original */
+    color: #333;
+    padding: 20px;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #8b034e;
+    /* your custom color */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main section styling */
+section {
+    max-width: 900px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1 {
+    color: #1f4e79;
+    /* your original h1 color */
+    font-size: 2em;
+    margin-bottom: 25px;
+}
+
+.toolkit-item {
+    margin-bottom: 40px;
+}
+
+.toolkit-item h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #00264d;
+}
+
+/* Image Styling */
+.toolkit-item img {
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Download Links */
+.toolkit-item a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #004080;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #004080;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.toolkit-item a:hover {
+    background-color: #004080;
+    color: white;
+}
